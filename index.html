@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090909">
+<title>THE DARK ZONE | Download</title>
+<style>
+:root{color-scheme:dark;--red:#e11d2e;--muted:#a8a8a8}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#3b090e 0,#140609 38%,#070707 78%);font-family:Arial,Helvetica,sans-serif;color:#f7f7f7;display:grid;place-items:center;padding:24px}.card{width:min(100%,440px);text-align:center;padding:38px 26px 30px;border:1px solid #63202a;border-radius:24px;background:linear-gradient(160deg,#171214ee,#090909f5);box-shadow:0 20px 70px #000b,0 0 35px #b10d2022}.mark{width:88px;height:88px;margin:0 auto 20px;border:2px solid var(--red);border-radius:22px;display:grid;place-items:center;background:linear-gradient(145deg,#350b11,#090909);box-shadow:0 0 28px #e11d2e55;font-weight:900;font-size:29px;letter-spacing:-2px}.eyebrow{color:#ff6875;font-size:11px;font-weight:800;letter-spacing:4px}h1{font-size:29px;letter-spacing:2px;margin:9px 0 8px}p{color:var(--muted);line-height:1.6;font-size:14px;margin:0 auto 22px}.version{display:inline-block;border:1px solid #52212a;border-radius:30px;padding:7px 13px;color:#f2a2aa;font-size:12px;margin-bottom:23px}.download{display:block;text-decoration:none;background:linear-gradient(90deg,#a90d20,#ed2638);color:white;font-weight:900;letter-spacing:1.5px;padding:16px 18px;border-radius:12px;box-shadow:0 8px 25px #d20d2c44}.download:active{transform:scale(.985)}.hint{font-size:11px;color:#858585;margin:17px 0 0}.line{height:1px;background:linear-gradient(90deg,transparent,#54202a,transparent);margin:25px 0 18px}.footer{font-size:10px;color:#666;letter-spacing:1.5px}
+</style></head>
+<body><main class="card"><div class="mark">DZ</div><div class="eyebrow">PRIVATE APP RELEASE</div><h1>THE DARK ZONE</h1><p>Your personal dark-themed dashboard. Get the Android installer for your device using the button below.</p><div class="version">VERSION 5.1 · ANDROID APK</div>
+<a class="download" id="downloadBtn" href="#" rel="noopener">DOWNLOAD APK</a>
+<p class="hint">Android only. If prompted, allow installation from the browser or file manager you used to download the APK. Only install apps from people you trust.</p><div class="line"></div><div class="footer">SHARED PRIVATELY WITH FRIENDS</div></main>
+<script>
+// Replace this value with your Google Drive direct-download URL after uploading the APK.
+const APK_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=1_GIDlWT2e1l7x0pR0p6WsXBGvkKORJCc";
+const btn=document.getElementById('downloadBtn');
+if(APK_DOWNLOAD_URL.startsWith('https://')) btn.href=APK_DOWNLOAD_URL;
+else {btn.addEventListener('click',e=>{e.preventDefault();alert('Download link is not connected yet. Upload the APK to Google Drive, then add its link in index.html.');});}
+</script></body></html>
